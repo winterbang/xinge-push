@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Ruby for Tencent Xinge
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/xinge`. To experiment with that code, run `bin/console` for an interactive prompt.
@@ -10,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruby-for-xinge'
+gem 'xinge-push'
 ```
 
 And then execute:
@@ -19,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ruby-for-xinge
+    $ gem install xinge-push
 
 ## Usage
 
@@ -43,12 +42,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/xinge/fork )
+1. Fork it ( https://github.com/winterbang/xinge/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
-=======
+
 # xinge-push
 信鸽推送平台api
->>>>>>> 73f7382b167a91ac2a3aa8ceaafb79a1df560cac
+
