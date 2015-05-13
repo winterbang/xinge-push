@@ -2,7 +2,9 @@ require 'xinge/base'
 module Xinge
   class Android < Base
     def initialize(accessId = nil, secretKey = nil, options = {})
-      super
+      accessId ||= Xinge.config[:android_accessId]
+      secretKey ||= Xinge.config[:android_secretKey]
+      super(accessId, secretKey)
     end
     def pushToSingleDevice(token, msg_type, title, content, custom_content={}, params={})
       self.push_single_device(token, msg_type, build_simple_message(title, content, custom_content), params)

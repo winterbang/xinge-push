@@ -5,7 +5,9 @@ module Xinge
     ENV_MAP = {'production' => 1, 'development' => 2}
 
     def initialize(accessId = nil, secretKey = nil, options = {})
-      super
+      accessId ||= Xinge.config[:ios_accessId]
+      secretKey ||= Xinge.config[:ios_secretKey]
+      super(accessId, secretKey)
     end
     def pushToSingleDevice(token, title, content, params={}, custom_content={})
       self.push_single_device(token, 1, build_simple_message(title, content, custom_content), params.merge({environment: ENV_MAP[Xinge.config[:env]]}))
