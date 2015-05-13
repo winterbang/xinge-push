@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ruby for Tencent Xinge
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/xinge`. To experiment with that code, run `bin/console` for an interactive prompt.
@@ -47,3 +48,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+=======
+# xinge-push
+信鸽推送平台api
+>>>>>>> 73f7382b167a91ac2a3aa8ceaafb79a1df560cac
